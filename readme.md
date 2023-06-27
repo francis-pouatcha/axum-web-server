@@ -10,7 +10,7 @@ In one terminal window use:
 to run the server code in dev mode so each modification of the sources restarts the server.
 
 
-In another terminal window, use this to attach the test code so every modification of the test file will run the test again
+In another terminal window, use this to attach the test file tests/quick_dev.rs so every modification of the test file will run the test again
 
 ```
 > cargo watch -q -c -w tests -x "test -q quick_dev -- --nocapture"
